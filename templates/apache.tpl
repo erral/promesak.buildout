@@ -1,7 +1,8 @@
 <VirtualHost *:80>
     ServerName ${:server-name}
 
-    ProxyPass http://127.0.0.1:${ports:django}
+    ProxyPass / http://127.0.0.1:${ports:django}/
+    ProxyPassReverse / http://127.0.0.1:${ports:django}/
 
     Alias /static ${buildout:directory}../static
     Alias /media ${buildout:directory}../media
