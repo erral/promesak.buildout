@@ -75,4 +75,4 @@ Apache web-zerbitzaria konfiguratu aurrez sortutako konfigurazio fitxategiarekin
 
 
 .. _buildout: http://www.buildout.org
-.. _Django: http://www.django-project.org
+.. _Django: http://www.djangoproject.com
