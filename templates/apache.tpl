@@ -1,8 +1,8 @@
 <VirtualHost *:80>
     ServerName ${:server-name}
 
-    Alias /static ${buildout:directory}../static
-    Alias /media ${buildout:directory}../media
+    Alias /static ${buildout:directory}/../static
+    Alias /media ${buildout:directory}/../media
 
     ProxyPass /static/ !
     ProxyPass /media/ !
